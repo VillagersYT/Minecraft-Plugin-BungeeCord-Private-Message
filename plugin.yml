@@ -1,0 +1,13 @@
+name: PrivateMessage
+author: VillagersYT
+version: 3.3.2
+main: fr.villagersyt.privatemessage.Main
+commands:
+  msg:
+    description: Permet d' envoyer des messages prives a un joueur
+  r:
+    description: Permet de repondre au joueur qui a envoyer le dernier message prive
+  spymsg:
+    description: Sert au administrateurs de voir les messages prives des joueurs en direct
+    permission: msg.spy
+    no-permission: "&cVous n'avez pas la permission d' utiliser cette commande."
